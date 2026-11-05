@@ -2,99 +2,36 @@
 title: Privacy Policy — Ateru
 ---
 
-# Privacy Policy
+# Ateru Privacy Policy
 
-**Ateru is an anime tracker that keeps your library on your device. It has no
-accounts, no servers, and collects nothing about you.**
+Last updated: November 4, 2026.
 
-Last updated: 13 August 2026.
+Ateru is a personal anime tracker. It has no account system, advertising, analytics SDK or third-party crash-reporting SDK. We do not operate a server that receives your watch archive.
 
----
+## Your library is yours
 
-## The short version
+Your library stays on your device. Ateru stores your series, progress, scores, notes, watch history, collections and preferences locally. There is no Ateru account or server-side copy of your archive. It also caches catalog details and artwork. Home Screen widgets use a shared on-device container accessible to Ateru and its widget extension for timeline data and cover images.
 
-- **No account.** There is nothing to sign up for and nothing to sign in to.
-- **No analytics, no tracking, no advertising.** The app contains no analytics SDK,
-  no crash reporter, no advertising identifier and no third-party tracker of any
-  kind.
-- **Your library never leaves your device** unless you export it yourself.
-- **One external service.** Anime titles, cover art, episode counts and airing
-  schedules come from AniList's public API.
+Deleting the app may remove its local data. Export a backup before reinstalling or changing devices. Device backups and diagnostics provided by Apple follow your operating-system settings and Apple's policies.
 
----
+## Catalog requests
 
-## What Ateru stores, and where
+Search, browsing, imports and metadata refreshes contact public catalog services. AniList is the primary provider; Kitsu and Jikan are fallback providers. If you enable advanced Detail information, the app also asks AniList for the selected studios, characters/voice cast, staff, tags or trailer metadata. Opening a trailer contacts YouTube through the in-app browser. Cover images may come from the associated AniList, Kitsu or MyAnimeList image servers.
 
-Everything Ateru knows about you is in a database file on your device, inside the
-app's own storage:
+Requests can contain search text, filters and catalog identifiers for series you look up or refresh. The provider receives ordinary network information, including your IP address. Requested identifiers may reflect series in your library. Ateru does not upload your complete archive, progress, scores, notes, local watch-event identifiers or import files to these providers, and does not add an advertising or tracking identifier.
 
-- The series in your library, their status, your episode progress, your scores and
-  your notes
-- Your watch history — which episode you marked watched, and when
-- Your settings
-- A cache of cover art and of anime details fetched from AniList
+These are independent services with their own practices. Ateru is not affiliated with AniList, Kitsu, Jikan or MyAnimeList.
 
-None of it is transmitted anywhere. It is not backed up to a server we control,
-because there is no server we control. If you delete the app, it is gone — which is
-also why Ateru has an export feature.
+## Choices you control
 
-## What leaves your device
+Import files are processed on your device; catalog identifiers may be looked up to resolve metadata. Export and recap sharing use the system share sheet. You choose where those files or images go, and the destination service applies its own policies.
 
-**Requests to AniList, and nothing else.** When you search for a series, open one, or
-let Ateru refresh what it already has, the app asks
-[AniList](https://anilist.co)'s public API for that information, and loads cover
-images from AniList's servers.
+You can inspect, export or clear your archive in Settings → Data. No remote account or server-side archive exists for us to delete. Optional themes and alternate icons use Apple’s in-app purchase system. Apple processes payment and offer-code redemption; Ateru checks verified on-device StoreKit entitlements to enable customization and restore access. Ateru does not receive your payment-card details or send purchase data to an Ateru server. Tips are disabled.
 
-Those requests carry what any web request carries — your IP address and the query
-itself. They do **not** carry your library, your progress, your notes, your scores or
-any identifier created by Ateru, because Ateru does not create one. AniList cannot
-tell that two requests came from the same person via anything Ateru sends.
+## Motion
 
-AniList is an independent service with its own privacy policy, which you can read at
-[anilist.co/terms](https://anilist.co/terms). **Ateru is not affiliated with
-AniList.**
+The Search dice picks a recommendation without a motion gesture. Motion-driven artwork respects the app and system motion preferences.
 
-## What you can send, if you choose to
+## Contact and changes
 
-Two features move data off your device, and both require you to act:
-
-- **Export.** Ateru writes your library to a file and hands it to the iOS share
-  sheet. Where it goes from there — Files, AirDrop, a message — is your choice. It
-  goes nowhere by itself.
-- **Import.** You pick a file — for example a MyAnimeList export — and Ateru reads
-  it. The file is read on your device and is not uploaded.
-
-## What Ateru does not do
-
-- No advertising, and no advertising identifier (IDFA). Ateru never requests
-  tracking permission because it has nothing to track you with.
-- No analytics or telemetry of any kind.
-- No crash or performance reporting.
-- No sale or sharing of personal information, because none is collected.
-- No location, camera, microphone, contacts or health access. Ateru requests none of
-  these permissions.
-
-## Children
-
-Ateru is not directed at children and collects no personal information from anyone,
-including children under 13. There is nothing to delete on request, because there is
-nothing held.
-
-## Your rights
-
-Because Ateru holds no data about you on any system we operate, requests to access,
-correct, export or delete your data have nothing to reach. You already have all of
-it:
-
-- **Access and export** — Settings → Data → Export
-- **Deletion** — Settings → Data → Clear library, or delete the app
-
-## Changes
-
-If this policy changes, the updated version will be posted here with a new date. The
-full history of this document is public in the repository that serves it, so any
-change can be seen rather than taken on trust.
-
-## Contact
-
-Questions about this policy: **rwetz00@gmail.com**
+Contact [rwetz00@gmail.com](mailto:rwetz00@gmail.com) with privacy questions. Updated policies will be posted with a new effective date. The app is not designed to collect information from children or to provide a children's account service.
