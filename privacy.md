@@ -17,7 +17,7 @@ Deleting the app may remove its local data. Export a backup before reinstalling 
 
 ## Catalog requests
 
-Search, browsing, imports and metadata refreshes contact public catalog services. AniList is the primary provider. Current TestFlight builds can also attempt requests to Kitsu and the retired public Jikan endpoint. MyAnimeList hosts artwork that may be loaded from catalog results or saved entries. If you enable advanced Detail information, the app also asks AniList for the selected studios, characters/voice cast, staff, tags or trailer metadata. Opening a trailer contacts YouTube through the in-app browser. Cover images may come from the associated AniList, Kitsu or MyAnimeList image servers.
+Search, browsing, imports and metadata refreshes contact public catalog services. AniList is the primary provider. Current TestFlight builds can also attempt requests to Kitsu and the retired public Jikan endpoint. If you enable advanced Detail information, the app also asks AniList for the selected studios, characters/voice cast, staff, tags or trailer metadata. Opening a trailer contacts YouTube through the in-app browser. Cover images may come from the associated AniList, Kitsu or MyAnimeList image servers.
 
 Requests can contain search text, filters and catalog identifiers for series you look up or refresh. The provider receives ordinary network information, including your IP address. Requested identifiers may reflect series in your library. Ateru does not upload your complete archive, progress, scores, notes, local watch-event identifiers or import files to these providers, and does not add an advertising or tracking identifier.
 
