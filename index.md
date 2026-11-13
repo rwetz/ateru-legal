@@ -1,13 +1,12 @@
 ---
-title: Ateru — legal
+title: Ateru
 ---
 
 # Ateru
 
-A quiet anime tracker for iOS. Your library stays on your device.
+A private anime tracker for iPhone. Your library stays on your device.
 
-- [**Privacy Policy**](privacy) — what Ateru stores, and what leaves your phone
-- [**Support**](support) — get help and contact us
-- [**Open-source notices**](notices) — every package that goes into the app
-
-Ateru is not affiliated with AniList.
+- [Privacy Policy](https://rwetz.github.io/ateru-legal/privacy)
+- [Terms of Use](https://rwetz.github.io/ateru-legal/terms)
+- [Support](https://rwetz.github.io/ateru-legal/support)
+- [Notices and Attribution](https://rwetz.github.io/ateru-legal/notices)

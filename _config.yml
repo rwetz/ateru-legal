@@ -1,5 +1,3 @@
-# GitHub Pages, minimal. `remote_theme` keeps the rendering readable without a build
-# step or a Gemfile — these are two documents, not a site.
 title: Ateru
-description: Privacy policy and open-source notices
+description: Privacy, terms, support and attribution
 theme: jekyll-theme-minimal
